@@ -46,6 +46,10 @@ const ProjectPage = () => {
         4. GPS를 이용하여 주변에 맛집이 어디있는지 알려준다.
       </p>
       <img src="./img/6.jpg" width={500} height={200}></img>
+      <p className=" mt-10 text-xl font-bold">
+        5. 음식을 예약하거나 미리 주문할 수 있다.
+      </p>
+      <img src="./img/7.jpg" width={500} height={200}></img>
     </div>
   )
 }
