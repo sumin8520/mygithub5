@@ -50,6 +50,21 @@ const ProjectPage = () => {
         5. 음식을 예약하거나 미리 주문할 수 있다.
       </p>
       <img src="./img/7.jpg" width={500} height={200}></img>
+      <p className="text-2xl mt-10 mb-5 font-bold">
+        이 프로젝트를 통해 얻고자 하는 바
+      </p>
+      <p className=" mt-10 text-l font-bold">
+        웹 페이지를 만드는 기술을 더욱 능숙하게 하며, 새로운 기술을 스스로
+      </p>
+      <p className="  text-l font-bold">
+        터득하고 수업때 배운 내용을 토대로 웹 페이지를 업데이트 해나가며
+      </p>
+      <p className=" text-l font-bold">
+        웹페이지에 대한 능률을 기르려 함과 동시에 나만의 웹 사이트나
+      </p>
+      <p className=" mb-40 text-l font-bold">
+        다른 창업 사이트를 만드는데 매우 큰 도움이 될것으로 예상됨.
+      </p>
     </div>
   )
 }

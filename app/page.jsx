@@ -16,7 +16,7 @@ export default function Home() {
         >
           my github
         </Link>
-        <p className="mb-2 text-green-800">클릭시 저의 깃허브로 이동합니다.</p>
+        <p className="mb-2 text-green-800">클릭시 깃허브로 이동합니다.</p>
       </div>
 
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
