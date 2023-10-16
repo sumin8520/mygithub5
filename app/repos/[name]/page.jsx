@@ -19,6 +19,16 @@ const RepoPage = ({ params: { name } }) => {
       <Suspense fallback={<div>Loading directories...</div>}>
         <RepoDirs name={name} />
       </Suspense>
+
+      <Link
+        href="https://hcj2-clerk2.vercel.app/"
+        className="text-xl text-blue-700 font-bold"
+      >
+        clerk2 실습
+      </Link>
+      <p className="mb-2 text-green-800">
+        클릭시 해당 실습내용이 담긴 링크로 이동
+      </p>
     </div>
   )
 }
