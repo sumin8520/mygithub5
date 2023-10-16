@@ -45,7 +45,7 @@ const Header = () => {
                   프로젝트
                 </Link>
                 <Link
-                  href="https://mygithub5-6q64.vercel.app/dashboard"
+                  href="/dashboard"
                   className="text-yellow-300 hover:text-white mr-4"
                 >
                   자기소개
