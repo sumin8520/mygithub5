@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
         <Link
-          href="http://localhost:3000/dashboard"
+          href="https://mygithub5-6q64.vercel.app/dashboard"
           className="text-xl text-blue-700 font-bold"
         >
           나에 대한 소개
