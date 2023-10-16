@@ -20,20 +20,14 @@ export default function Home() {
       </div>
 
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
-        <Link
-          href="https://mygithub5-6q64.vercel.app/dashboard"
-          className="text-xl text-blue-700 font-bold"
-        >
+        <Link href="/dashboard" className="text-xl text-blue-700 font-bold">
           나에 대한 소개
         </Link>
         <p className="mb-2 text-green-800"> Introduce</p>
       </div>
 
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
-        <Link
-          href="https://mygithub5-6q64.vercel.app/project"
-          className="text-xl text-blue-700 font-bold"
-        >
+        <Link href="/project" className="text-xl text-blue-700 font-bold">
           Project
         </Link>
         <p className="mb-2 text-green-800"> 진행중인 프로젝트 소개</p>
