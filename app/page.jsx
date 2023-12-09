@@ -38,6 +38,7 @@ export default function Home() {
         </Link>
         <p className="mb-2 text-green-800"> 진행중인 프로젝트 소개</p>
       </div>
+      <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg"></div>
     </>
   )
 }

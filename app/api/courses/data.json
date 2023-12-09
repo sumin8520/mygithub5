@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "title": "React Front To Back",
-    "description": "Learn Modern React, Including Hooks, Context API, Full Stack MERN & Redux By Building Real Life Projects.",
-    "link": "https://www.traversymedia.com/Modern-React-Front-To-Back-Course",
-    "level": "Beginner"
+    "title": "crud",
+    "description": "crud 프로젝트, DB, 로그인 기능, 댓글, 글 게시 등 작업",
+    "link": "https://github.com/sumin8520/crud2",
+    "level": "2학년 2학기 기말"
   },
   {
     "id": 2,
-    "title": "Node.js API Masterclass",
-    "description": "Build an extensive RESTful API using Node.js, Express, and MongoDB",
-    "link": "https://www.traversymedia.com/node-js-api-masterclass",
-    "level": "Intermediate"
+    "title": "1학기 복습",
+    "description": "HTML5, CSS, Javascript등 복습",
+    "link": "https://github.com/sumin8520/hcj2",
+    "level": "2학년 1학기 복습"
   },
   {
     "id": 3,
-    "title": "Modern JavaScript From The Beginning",
-    "description": "37 hour course that teaches you all of the fundamentals of modern JavaScript.",
-    "link": "https://www.traversymedia.com/modern-javascript-2-0",
-    "level": "All Levels"
+    "title": "Clerk",
+    "description": "clerk를 이용한 로그인 기능 쉽게 구현하기 (로딩기능 구현)",
+    "link": "https://github.com/sumin8520/clerk2",
+    "level": "2학년 2학기 중간"
   },
   {
     "id": 4,
-    "title": "Next.js Dev To Deployment",
-    "description": "Learn Next.js by building a music event website and a web dev blog as a static website",
-    "link": "https://www.traversymedia.com/next-js-dev-to-deployment",
-    "level": "Intermediate"
+    "title": "쇼핑몰",
+    "description": "쇼핑몰 구현하기",
+    "link": "https://github.com/sumin8520/shopping",
+    "level": "2학년 2학기 기말"
   },
   {
     "id": 5,
-    "title": "50 Projects in 50 Days",
-    "description": "Sharpen your skills by building 50 quick, unique & fun mini projects.",
-    "link": "https://www.traversymedia.com/50-Projects-In-50-Days",
-    "level": "Beginner"
+    "title": "포토폴리오 깃허브",
+    "description": "나만의 깃허브 포토폴리오 만들기",
+    "link": "https://github.com/sumin8520/portfolio",
+    "level": "깃허브 포토폴리오"
   }
 ]
