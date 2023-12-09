@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 export default function Navbar() {
   return (
@@ -12,7 +13,7 @@ export default function Navbar() {
         className="bg-yellow-200 text-lg font-bold px-4 py-2 rounded-md"
         href="https://mygithub5-6q64.vercel.app/"
       >
-        Mygithub
+        Home
       </Link>
     </nav>
   )
