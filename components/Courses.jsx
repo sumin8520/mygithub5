@@ -22,7 +22,7 @@ const Courses = async ({ courses }) => {
             target="_blank"
             className="py-2 px-4 bg-blue-700 hover:bg-blue-800 text-white rounded-lg mb-4"
           >
-            Go To Course
+            관련 깃허브 링크
           </Link>
         </div>
       ))}

@@ -26,7 +26,7 @@ const CourseSearch = ({ getSearchResults }) => {
         type="submit"
         className="p-2 m-2 text-white bg-blue-700 hover:bg-blue-800 rounded-lg"
       >
-        Search
+        찾다
       </button>
     </form>
   )

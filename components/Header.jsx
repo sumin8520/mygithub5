@@ -39,6 +39,12 @@ const Header = () => {
               </Link>
 
               <Link
+                href="/courses"
+                className="text-yellow-300 hover:text-white mr-4"
+              >
+                배운것
+              </Link>
+              <Link
                 href="/dashboard"
                 className="text-yellow-300 hover:text-white mr-4"
               >

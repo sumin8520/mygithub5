@@ -8,13 +8,6 @@ export default function Navbar() {
       >
         글 남기기
       </Link>
-
-      <Link
-        className=" text-lg text-red-500 font-bold px-12 py-2 rounded-md"
-        href="/"
-      >
-        My Github
-      </Link>
     </nav>
   )
 }

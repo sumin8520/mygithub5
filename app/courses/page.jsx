@@ -1,10 +1,8 @@
 'use client'
-import Courses from '@/app/components/courses/Courses'
+import Courses from '@/components/Courses'
 import { useState, useEffect } from 'react'
 import LoadingPage from '../loading'
-import CourseSearch from '@/app/components/courses/CourseSearch'
-import { CiForkAndKnife } from 'react-icons/ci'
-import Link from 'next/link'
+import CourseSearch from '@/components/CourseSearch'
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([])
@@ -26,12 +24,8 @@ const CoursesPage = () => {
   }
 
   return (
-    <div className="text-center flex flex-col items-center">
-      <Link href="/courses">
-        <h1 className="text-5xl font-bold mb-7 mt-8 flex items-center">
-          Food Search<CiForkAndKnife></CiForkAndKnife>
-        </h1>
-      </Link>
+    <div>
+      <h1 className="text-2xl font-bold mb-4">Courses </h1>
       <CourseSearch getSearchResults={(results) => setCourses(results)} />
       <Courses courses={courses} />
     </div>
