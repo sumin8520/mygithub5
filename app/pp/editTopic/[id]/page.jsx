@@ -1,9 +1,12 @@
 import EditTopicForm from '@/app/pp/components/EditTopicForm'
 const getTopicById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/pp/api/topics/${id}`, {
-      cache: 'no-store',
-    })
+    const res = await fetch(
+      `https://mygithub5-6q64.vercel.app/pp/api/topics/${id}`,
+      {
+        cache: 'no-store',
+      }
+    )
     if (!res.ok) {
       throw new Error('Failed to fetch topic.')
     }

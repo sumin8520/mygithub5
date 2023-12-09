@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { AiFillStar, AiOutlineFundProjectionScreen } from 'react-icons/ai'
 const ProjectPage = () => {
@@ -65,6 +66,12 @@ const ProjectPage = () => {
       <p className=" mb-40 text-l font-bold">
         다른 창업 사이트를 만드는데 매우 큰 도움이 될것으로 예상됨.
       </p>
+      <Link
+        className=" mb-40 text-l font-bold"
+        href="https://hibye-seven.vercel.app"
+      >
+        FoodHunter 사이트!
+      </Link>
     </div>
   )
 }

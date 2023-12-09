@@ -8,7 +8,7 @@ export default function EditTopicForm({ id, title, description }) {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const res = await fetch(`http://localhost:3000/pp/api/topics/${id}`, {
+      const res = await fetch(`/pp/api/topics/${id}`, {
         method: 'PUT',
         headers: {
           'Content-type': 'application/json',
