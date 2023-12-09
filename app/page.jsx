@@ -1,6 +1,14 @@
 import Link from 'next/link'
 import { VscGithub } from 'react-icons/vsc'
-export default function Home() {
+import { getServerSession } from 'next-auth'
+import { authOptions } from './api/auth/[...nextauth]/route'
+import { redirect } from 'next/navigation'
+
+export default async function Home() {
+  const session = await getServerSession(authOptions)
+  if (!session) {
+    redirect('/signIn')
+  }
   return (
     <>
       <h1 className="text-4xl mb-4 font-bold text-green-800">

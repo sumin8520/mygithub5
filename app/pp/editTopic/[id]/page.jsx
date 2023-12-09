@@ -1,4 +1,8 @@
 import EditTopicForm from '@/app/pp/components/EditTopicForm'
+import { authOptions } from '@/app/api/auth/[...nextauth]/route'
+import { getServerSession } from 'next-auth/next'
+import { redirect } from 'next/navigation'
+
 const getTopicById = async (id) => {
   try {
     const res = await fetch(
@@ -16,6 +20,10 @@ const getTopicById = async (id) => {
   }
 }
 export default async function EditTopic({ params }) {
+  const session = await getServerSession(authOptions)
+  if (!session) {
+    redirect('/signIn')
+  }
   const { id } = params
   const { topic } = await getTopicById(id)
   const { title, description } = topic
