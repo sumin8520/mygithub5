@@ -11,7 +11,7 @@ export default function Navbar() {
       </Link>
       <Link
         className="bg-yellow-200 text-lg font-bold px-4 py-2 rounded-md"
-        href="https://mygithub5-6q64.vercel.app/"
+        href={'https://mygithub5-6q64.vercel.app/'}
       >
         Home
       </Link>

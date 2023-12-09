@@ -10,7 +10,7 @@ export default function SignInBtn() {
         }}
         className="flex items-center justify-center gap-4 rounded-lg pl-3 mb-4"
       >
-        <Image src="/google-logo.png" height={30} width={30} alt="google" />
+        <Image src="/img/google-logo.png" height={30} width={30} alt="google" />
         <span className="bg-blue-500 text-white px-4 py-3">
           Sign in with Google
         </span>
@@ -19,9 +19,9 @@ export default function SignInBtn() {
         onClick={() => {
           signIn('github')
         }}
-        className="flex justify-center items-center gap-4  rounded-lg pl-3"
+        className="flex justify-center items-center gap-4 rounded-lg pl-3"
       >
-        <Image src="/github-logo.png" height={30} width={30} alt="github" />
+        <Image src="/img/github-logo.png" height={30} width={30} alt="github" />
         <span className="bg-gray-700 text-white px-4 py-3">
           Sign in with Github
         </span>
