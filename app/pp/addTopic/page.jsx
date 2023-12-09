@@ -11,7 +11,7 @@ export default function AddTopic() {
       alert('Title and description are required.')
     }
     try {
-      const res = await fetch('mygithub5-6q64.vercel.app/pp/api/topics', {
+      const res = await fetch('/pp/api/topics', {
         method: 'POST',
         headers: {
           'Content-type': 'application/json',
