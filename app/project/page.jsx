@@ -66,11 +66,13 @@ const ProjectPage = () => {
       <p className=" mb-40 text-l font-bold">
         다른 창업 사이트를 만드는데 매우 큰 도움이 될것으로 예상됨.
       </p>
+      <p className="  text-3xl font-bold md-10">프로젝트 결과</p>
+      <img src="./img/fhfh.jpg" width={100} height={100}></img>
       <Link
-        className=" mb-40 text-l font-bold"
+        className=" text-yellow-300 hover:text-black mr-4 mb-40 text-2xl py-40 font-bold"
         href="https://hibye-seven.vercel.app"
       >
-        FoodHunter 사이트!
+        Food Hunter 사이트 바로가기
       </Link>
     </div>
   )
